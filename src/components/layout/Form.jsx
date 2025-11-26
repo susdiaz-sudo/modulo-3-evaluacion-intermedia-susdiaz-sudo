@@ -17,6 +17,14 @@ function Form({ setFilterText }) {
         placeholder="Find your country..."
         onInput={handleInputFilter}
       />
+      {/* <label className="label" htmlFor="filterContinent">By Continent</label>
+      <input
+        className="input"
+        type="text"
+        name="filterContinent"
+        id="filterContinent"
+        placeholder="Find your continent..."
+      /> */}
     </form>
   );
 }
