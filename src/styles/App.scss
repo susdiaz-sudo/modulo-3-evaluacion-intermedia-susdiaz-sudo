@@ -8,6 +8,15 @@
   font-family: "Roboto", Arial, Helvetica, sans-serif;
 }
 
+body {
+  min-height: 100dvh;
+  margin: 0;
+  background-image: url("https://wallpapers.com/images/hd/sky-blue-background-cfnm9kv06qfivmp3.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
+
 .title {
   display: flex;
   justify-content: center;
@@ -15,8 +24,8 @@
   padding-inline: 2rem;
   color: rgb(201, 137, 221);
   font-weight: bold;
+  padding-top: 2rem;
 }
-
 
 .form {
   display: flex;
@@ -38,7 +47,7 @@
 
 .main {
   width: 100dvw;
-  padding: 2rem;
+  padding: 3rem;
 }
 
 .countryList {
