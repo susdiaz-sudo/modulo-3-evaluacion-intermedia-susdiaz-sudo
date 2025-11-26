@@ -8,18 +8,32 @@
   font-family: "Roboto", Arial, Helvetica, sans-serif;
 }
 
-body {
-  background-color: #555;
-  color: #fff;
-}
-
 .header {
-  border-bottom: solid 5px darkcyan;
+  border-bottom: solid 5px rgb(155, 93, 155);
 
   .title {
     line-height: 4rem;
     padding-inline: 2rem;
+    color : rgb(194, 98, 197);
+    font-weight: bold;
   }
+}
+
+.form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.input {
+  text-align: center;
+  font-weight: bold;
+  padding-inline: 10rem;
+  padding-block: 0.2rem;
+  border-color: rgb(155, 93, 155);;
+  border-radius: 50px;
+  background-color: white;
+  color: rgb(194, 98, 197);
 }
 
 .main {

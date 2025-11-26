@@ -2,13 +2,12 @@ import "../styles/App.scss";
 import Header from "./layout/Header";
 
 function App() {
-
   const paises = [
     {
       commonName: "España",
       officialName: "Reino de España",
     },
-     {
+    {
       commonName: "Italia",
       officialName: "República Italiana",
     },
@@ -16,7 +15,7 @@ function App() {
       commonName: "Marruecos",
       officialName: "Reino de marruecos",
     },
-     {
+    {
       commonName: "Egipto",
       officialName: "República arábica de Egipto",
     },
@@ -36,23 +35,23 @@ function App() {
       commonName: "México",
       officialName: "Estados Unidos Mexicanos",
     },
-     {
+    {
       commonName: "China",
       officialName: "República Popular de China",
     },
-     {
+    {
       commonName: "Japón",
       officialName: "Japón",
     },
-     {
+    {
       commonName: "Japón",
       officialName: "Japón",
     },
-     {
+    {
       commonName: "Australia",
       officialName: "Australia",
     },
-     {
+    {
       commonName: "Nueva Zelanda",
       officialName: "Nueva Zelanda",
     },
@@ -62,6 +61,15 @@ function App() {
     <div>
       <Header />
       <main className="main">
+        <form className="form">
+          <input
+            className="input"
+            type="text"
+            name="filter"
+            id="filter"
+            placeholder="Find your country..."
+          />
+        </form>
       </main>
     </div>
   );
