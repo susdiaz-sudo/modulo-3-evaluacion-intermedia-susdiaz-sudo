@@ -5,78 +5,78 @@ import CountryList from "./layout/CountryList";
 import Form from "./layout/Form";
 
 const countries = [
-  {
+{
     url: "https://www.banderas-mundo.es/data/flags/h80/es.webp",
-    commonName: "España",
-    officialName: "Reino de España",
-    Continent: "Europe",
-  },
-  {
+    commonName: "Spain",
+    officialName: "Kingdom of Spain",
+    Continent: "Europe"
+},
+{
     url: "https://www.banderas-mundo.es/data/flags/h80/it.webp",
-    commonName: "Italia",
-    officialName: "República Italiana",
-    Continent: "Europe",
-  },
-  {
+    commonName: "Italy",
+    officialName: "Italian Republic",
+    Continent: "Europe"
+},
+{
     url: "https://www.banderas-mundo.es/data/flags/h80/ma.webp",
-    commonName: "Marruecos",
-    officialName: "Reino de marruecos",
-    Continent: "Africa",
-  },
-  {
+    commonName: "Morocco",
+    officialName: "Kingdom of Morocco",
+    Continent: "Africa"
+},
+{
     url: "https://www.banderas-mundo.es/data/flags/h80/eg.webp",
-    commonName: "Egipto",
-    officialName: "República arábica de Egipto",
-    Continent: "Africa",
-  },
-  {
+    commonName: "Egypt",
+    officialName: "Arab Republic of Egypt",
+    Continent: "Africa"
+},
+{
     url: "https://www.banderas-mundo.es/data/flags/h80/us.webp",
-    commonName: "Estados Unicos",
-    officialName: "Estados Unidos de América",
-    Continent: "America",
-  },
-  {
+    commonName: "United States",
+    officialName: "United States of America",
+    Continent: "America"
+},
+{
     url: "https://www.banderas-mundo.es/data/flags/h80/ca.webp",
-    commonName: "Canadá",
-    officialName: "Canadá",
-    Continent: "America",
-  },
-  {
+    commonName: "Canada",
+    officialName: "Canada",
+    Continent: "America"
+},
+{
     url: "https://www.banderas-mundo.es/data/flags/h80/ar.webp",
     commonName: "Argentina",
-    officialName: "República Argentina",
-    Continent: "South America",
-  },
-  {
+    officialName: "Argentine Republic",
+    Continent: "South America"
+},
+{
     url: "https://www.banderas-mundo.es/data/flags/h80/mx.webp",
-    commonName: "México",
-    officialName: "Estados Unidos Mexicanos",
-    Continent: "South America",
-  },
-  {
+    commonName: "Mexico",
+    officialName: "United Mexican States",
+    Continent: "South America"
+},
+{
     url: "https://www.banderas-mundo.es/data/flags/h80/cn.webp",
     commonName: "China",
-    officialName: "República Popular de China",
-    Continent: "Asia",
-  },
-  {
+    officialName: "People's Republic of China",
+    Continent: "Asia"
+},
+{
     url: "https://www.banderas-mundo.es/data/flags/h80/jp.webp",
-    commonName: "Japón",
-    officialName: "Japón",
-    Continent: "Asia",
-  },
-  {
+    commonName: "Japan",
+    officialName: "Japan",
+    Continent: "Asia"
+},
+{
     url: "https://www.banderas-mundo.es/data/flags/h80/au.webp",
     commonName: "Australia",
     officialName: "Australia",
-    Continent: "Oceania",
-  },
-  {
+    Continent: "Oceania"
+},
+{
     url: "https://www.banderas-mundo.es/data/flags/h80/nz.webp",
-    commonName: "Nueva Zelanda",
-    officialName: "Nueva Zelanda",
-    Continent: "Oceania",
-  },
+    commonName: "New Zealand",
+    officialName: "New Zealand",
+    Continent: "Oceania"
+}
 ];
 
 function App() {
