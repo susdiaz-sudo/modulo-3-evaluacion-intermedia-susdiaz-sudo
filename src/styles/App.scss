@@ -37,11 +37,11 @@
 }
 
 .main {
+  width: 100dvw;
   padding: 2rem;
 }
 
 .countryList {
-  width: 100%;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   justify-content: center;
@@ -51,6 +51,7 @@
 }
 
 .country {
+  width: 20dvw;
   border: solid 0.3rem rgb(126, 40, 126);
   padding: 1rem;
   border-radius: 1rem;
@@ -61,7 +62,8 @@
 }
 
 .country img {
-  width: 10rem;
+  width: 100;
+  max-width: 10rem;
   height: 5rem;
   object-fit: contain;
   padding-bottom: 0.5rem;

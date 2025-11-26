@@ -2,6 +2,7 @@ import { useState } from "react";
 import "../styles/App.scss";
 import Header from "./layout/Header";
 import CountryList from "./layout/CountryList";
+import Form from "./layout/Form";
 
 const countries = [
   {
@@ -68,21 +69,18 @@ const countries = [
 
 function App() {
   const [country, setCountry] = useState(countries);
+  const [filterText, setFilterText] = useState("");
+
+  const filteredCountries = country.filter((eachCountry) =>
+    eachCountry.commonName.toLowerCase().includes(filterText)
+  );
 
   return (
     <div>
       <Header />
       <main className="main">
-        <form className="form">
-          <input
-            className="input"
-            type="text"
-            name="filter"
-            id="filter"
-            placeholder="Find your country..."
-          />
-        </form>
-        <CountryList country={country} />
+        <Form setFilterText={setFilterText} />
+        <CountryList country={filteredCountries} />
       </main>
     </div>
   );
