@@ -41,26 +41,30 @@
 }
 
 .countryList {
-  width: 100vw;
-  display: flex;
-  flex-direction: row;
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
   justify-content: center;
-  align-items: center;
   list-style: none;
   padding-top: 3rem;
-  gap: 2rem;
+  gap: 1.5rem;
 }
 
 .country {
   border: solid 0.3rem rgb(126, 40, 126);
   padding: 1rem;
   border-radius: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 .country img {
   width: 10rem;
   height: 5rem;
   object-fit: contain;
+  padding-bottom: 0.5rem;
 }
 
 .country p {
