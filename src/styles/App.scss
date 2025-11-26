@@ -8,16 +8,15 @@
   font-family: "Roboto", Arial, Helvetica, sans-serif;
 }
 
-.header {
-  border-bottom: solid 5px rgb(155, 93, 155);
-
-  .title {
-    line-height: 4rem;
-    padding-inline: 2rem;
-    color : rgb(194, 98, 197);
-    font-weight: bold;
-  }
+.title {
+  display: flex;
+  justify-content: center;
+  line-height: 4rem;
+  padding-inline: 2rem;
+  color: rgb(201, 137, 221);
+  font-weight: bold;
 }
+
 
 .form {
   display: flex;
@@ -30,7 +29,8 @@
   font-weight: bold;
   padding-inline: 10rem;
   padding-block: 0.2rem;
-  border-color: rgb(155, 93, 155);;
+  border-color: rgb(126, 40, 126);
+  ;
   border-radius: 50px;
   background-color: white;
   color: rgb(194, 98, 197);
@@ -38,4 +38,34 @@
 
 .main {
   padding: 2rem;
+}
+
+.countryList {
+  width: 100vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+  padding-top: 3rem;
+  gap: 2rem;
+}
+
+.country {
+  border: solid 0.3rem rgb(126, 40, 126);
+  padding: 1rem;
+  border-radius: 1rem;
+}
+
+.country img {
+  width: 10rem;
+  height: 5rem;
+  object-fit: contain;
+}
+
+.country p {
+  text-align: center;
+  color: rgb(194, 98, 197);
+  font-size: 1.3rem;
+  font-weight: bold;
 }
